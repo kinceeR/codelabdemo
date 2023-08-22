@@ -31,12 +31,12 @@ plugins {
     id 'com.diffplug.spotless' version '6.19.0'
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
 
 spotless {
     kotlin {

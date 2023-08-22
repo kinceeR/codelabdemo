@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+
+include ':MigrationCodelab:app'
+include ':AccessibilityCodelab:app'
+include ':AdaptiveUICodelab:app'
+include ':AdvancedStateAndSideEffectsCodelab:app'
+include ':AnimationCodelab:app'
+include ':BasicLayoutsCodelab:app'
+include ':BasicsCodelab:app'
+include ':BasicStateCodelab:app'
+include ':NavigationCodelab:app'
+include ':TestingCodelab:app'
+include ':ThemingCodelab:app'
+include ':ThemingCodelabM2:app'
+
+rootProject.name = "codelab-android-compose"
